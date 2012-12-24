@@ -4,6 +4,8 @@ author:
   - 'Gabor Szabo <szabgab@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.59
+  Perl::Version: 1.011
+  Test::More: 0.42
 configure_requires:
   ExtUtils::MakeMaker: 6.59
 distribution_type: module
@@ -20,6 +22,7 @@ no_index:
     - t
 requires:
   DBD::CSV: 0.36
+  Excel::Writer::XLSX: 0.46
   Spreadsheet::ParseExcel: 0.59
   Spreadsheet::ParseExcel::Simple: 0
   Spreadsheet::Read: 0.47
@@ -33,4 +36,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: https://github.com/dwimperl/Task-DWIM
-version: 0.06
+version: 0.07
